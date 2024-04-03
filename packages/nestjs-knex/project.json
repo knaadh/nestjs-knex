@@ -1,0 +1,33 @@
+{
+  "name": "nestjs-knex",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/nestjs-knex/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/nestjs-knex",
+        "tsConfig": "packages/nestjs-knex/tsconfig.lib.json",
+        "packageJson": "packages/nestjs-knex/package.json",
+        "main": "packages/nestjs-knex/src/index.ts",
+        "assets": ["packages/nestjs-knex/*.md", "packages/nestjs-knex/LICENSE"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  }
+}

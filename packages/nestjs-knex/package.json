@@ -1,0 +1,35 @@
+{
+  "name": "@knaadh/nestjs-knex",
+  "version": "1.0.0",
+  "author": "Mithlesh Jasrotia <mithleshjs@gmail.com>",
+  "license": "MIT",
+  "description": "A NestJS module for integrating Knex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knaadh/nestjs-knex.git",
+    "directory": "packages/nestjs-knex"
+  },
+  "bugs": {
+    "url": "https://github.com/knaadh/nestjs-knex/issues"
+  },
+  "homepage": "https://github.com/knaadh/nestjs-knex",
+  "keywords": [
+    "knex",
+    "nestjs",
+    "database",
+    "query builder"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=9.0.0",
+    "knex": "*"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts"
+}

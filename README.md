@@ -10,6 +10,12 @@
   <a href="https://nx.dev/" target="blank"><img src="https://img.shields.io/badge/built%20with-Nx-orange?style=for-the-badge" alt="Nrwl Nx" /></a>
 </p>
 
+<p align="center">
+<a href="https://www.codefactor.io/repository/github/knaadh/nestjs-knex"><img src="https://www.codefactor.io/repository/github/knaadh/nestjs-knex/badge" alt="CodeFactor" /></a>
+<img alt="npm" src="https://img.shields.io/npm/v/@knaadh/nestjs-knex?color=blue&label=latest&logo=npm">
+<img alt="npm" src="https://img.shields.io/npm/dt/@knaadh/nestjs-knex">
+</p>
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
